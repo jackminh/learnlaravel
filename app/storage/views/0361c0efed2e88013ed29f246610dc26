@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Application</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<?php echo HTML::style('js/bootstrap-3.3.4/dist/css/bootstrap.min.css'); ?>
+
+	<?php echo HTML::script('js/libs/jquery-2.0.2.min.js'); ?>
+
+	<?php echo HTML::script('js/bootstrap-3.3.4/dist/js/bootstrap.min.js'); ?>
+
+</head>
+<body>
+	<?php echo $__env->yieldContent('body'); ?>
+</body>	
+</html>
