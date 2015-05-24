@@ -1,0 +1,108 @@
+    .clear-default-margin{
+        margin:0; 
+        padding:0;
+    }
+    .display-none{
+        display: none;
+    }
+    .display-block{
+        display: block;
+    }    
+    .border-color-red{
+        border-color: red;
+    }
+    
+    .margin-left-10{
+        margin-left: 10px;
+    }
+    .margin-left-15{
+        margin-left: 15px;
+    }
+    .margin-left-20{
+        margin-left: 20px;
+    }      
+    .margin-left-25{
+        margin-left: 25px;
+    }
+    .margin-left-30{
+        margin-left: 30px;
+    }
+    .margin-left-35{
+        margin-left: 35px;
+    }
+    .margin-left-40{
+        margin-left: 40px;
+    }
+    .margin-left-45{
+        margin-left: 45px;
+    }
+    .margin-left-50{
+        margin-left: 50px;
+    }
+    .margin-left-55{
+        margin-left: 55px;
+    }
+
+    .margin-botom-10{
+        margin-bottom: 10px;
+    }
+    .margin-botom-8{
+        margin-bottom: 8px;
+    }
+    .margin-botom-6{
+        margin-bottom: 6px;
+    }
+    .margin-botom-5{
+        margin-bottom: 5px;
+    }
+
+
+    .lev1-head{
+        line-height: 25px;
+        font-size: 18px;
+    }
+    .lev2-head{
+        line-height: 25px;
+        font-size: 17px; 
+    }
+    .lev3-head{
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .lev4-head{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .lev5-head{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .lev6-head{
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    .s7-nest-20{
+        margin-left: 20px;
+    }
+    .s7-nest-30{
+        margin-left: 30px;
+    }
+    .s7-plus-tree{
+        position: relative;
+        right: 15px;
+        bottom: -6px;
+    }
+    .table-sp select{
+        max-width: 100px;
+        height: 24px;
+    }
+    .input-number{
+        width: 40px;
+    }    
+
+    .hide-border{
+        border-left-style:none;
+        border-right-style:none;
+        border-top-style:none;
+    }
