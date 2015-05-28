@@ -1,0 +1,30 @@
+<?php $__env->startSection('body'); ?>
+<?php echo Form::open(array('action' => 'FormController@store')); ?>
+
+<div class="form-group">
+<?php echo Form::text(
+			'name', 
+			 null, 
+			['class' => 'form-control', 'placeholder' => trans('lang.name')]
+	    ); ?>
+
+</div>
+<div class="form-group">
+<?php echo Form::text(
+			   'display_name', 
+				null, 
+			    ['class' => 'form-control', 'placeholder' => trans('lang.display_name')]
+			  ); ?>
+
+</div>
+<div class="form-group status-post-submit">
+<?php echo Form::submit(
+			trans('lang.submit'), 
+			['class' => 'btn btn-primary', 'id' => 'user-edit-submit' ]
+			); ?>
+
+</div>
+<?php echo Form::close(); ?>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -49,6 +49,9 @@ Route::get('less01',function(){
 Route::get('js01',function(){
 	return View::make('demos.js01');
 });
+Route::resource('form', 'FormController',array('only'=>array('index','store')));
+
+
 
 
 
